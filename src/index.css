@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .skeleton-tyrdpeehgx9:empty {
+  position: relative;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 0px 0px;
+  background-image: linear-gradient(#f5f7f9 6px, transparent 0),
+    linear-gradient(#f5f7f9 6px, transparent 0),
+    linear-gradient(#f5f7f9 6px, transparent 0),
+    linear-gradient(#f5f7f9 6px, transparent 0),
+    linear-gradient(#f5f7f9 6px, transparent 0),
+    radial-gradient(circle 20px at 20px 20px, #f5f7f9 99%, transparent 0);
+  background-repeat: repeat-y;
+  background-size: 43% 133px, 90% 133px, 74% 133px, 52px 133px, 88px 133px,
+    40px 133px;
+  background-position: left 12px top 111px, left 12px top 92px,
+    left 12px top 73px, left 59px top 39px, left 59px top 21px,
+    left 12px top 12px;
+}
+.skeleton-tyrdpeehgx9:empty:before {
+  content: " ";
+  position: absolute;
+  z-index: 59;
+  width: 100%;
+  height: 400px;
+  -webkit-mask-image: linear-gradient(
+    108deg,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  -webkit-mask-repeat: repeat-y;
+  -webkit-mask-size: 90px 400px;
+  -webkit-mask-position: -20% 0;
+  background-image: linear-gradient(rgba(226, 227, 233, 1) 6px, transparent 0),
+    linear-gradient(rgba(226, 227, 233, 1) 6px, transparent 0),
+    linear-gradient(rgba(226, 227, 233, 1) 6px, transparent 0),
+    linear-gradient(rgba(226, 227, 233, 1) 6px, transparent 0),
+    linear-gradient(rgba(226, 227, 233, 1) 6px, transparent 0),
+    radial-gradient(
+      circle 20px at 20px 20px,
+      rgba(226, 227, 233, 1) 99%,
+      transparent 0
+    );
+  background-repeat: repeat-y;
+  background-size: 43% 133px, 90% 133px, 74% 133px, 52px 133px, 88px 133px,
+    40px 133px;
+  background-position: left 12px top 111px, left 12px top 92px,
+    left 12px top 73px, left 59px top 39px, left 59px top 21px,
+    left 12px top 12px;
+  animation: shineForSkeleton-tyrdpeehgx9 2s infinite;
+}
+@keyframes shineForSkeleton-tyrdpeehgx9 {
+  to {
+    -webkit-mask-position: 120% 0;
+  }
+} */
+.ske {
+  border: 1px solid red; /* Gray border */
+  background-color: #ffffff;
+  position: absolute;
+  top: 20;
+  right: 30;
+  z-index: 9999;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}

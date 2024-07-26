@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Mundus",
+  "version": "1.0.1",
+  "description": "An extension to clear cache, cookies and also get insights on privacy policies prior to accepting them",
+  "permissions": [
+    "browsingData",
+    "storage",
+    "tabs",
+    "contextMenus",
+    "notifications",
+    "cookies",
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "assets/background.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["data/languages.json", "fonts/Exo-VariableFont_wght.ttf"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["assets/contentScript.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "48": "48icon.png"
+  }
+}
