@@ -1,8 +1,25 @@
-# React + Vite
+# Mundus Chrome Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Mundus is a Chrome extension designed to enhance user data privacy by summarizing data policies, terms and conditions, translating these documents into User's preferred language and clearing cookies and cache of websites. Our goal is to make it easier for users to understand the privacy implications of the websites they visit and maintain their privacy online.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Summarize Data Policies**: Automatically generate concise summaries of lengthy data policies and terms and conditions.
+- **Translate Documents**: Translate data policies and terms and conditions into various languages.
+- **Clear Cookies and Cache**: Easily clear cookies and cache for any website to enhance privacy and security.
+
+
+![Mundus Summary1](screenshots/Mundus_1.png)
+![Mundus Summary2](screenshots/Mundus_2.png)
+![Mundus Summary3](screenshots/Mundus_3.png)
+![Mundus Summary4](screenshots/Mundus_4.png)
+*Summary and Translation of a data policy*
+
+
+
+![Mundus Clearing1](screenshots/Mundus_cc1.png)
+![Mundus Clearing2](screenshots/Mundus_cc2.png)
+![Mundus Clearing3](screenshots/Mundus_cc3.png)
+*Cookie and cache clearing*
